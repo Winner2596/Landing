@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    playFair: ['Playfair Display'],
+                    roboto: ['Roboto'],
+                    cormorant: ['Cormorant Upright', 'serif'],
+                   
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+      <style>
+        @import "~@fortawesome/fontawesome-free/css/all.css";
+
+        .tilt {
+            transition: transform 0.2s ease;
+        }
+        .tilt:hover {
+            transform: rotate(-5deg);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class=" p-7 fixed left-0 bg-white right-0">
+        <div class="flex justify-between items-center">
+            <div class="p-1 w-11  text-center bg-purple-200 text-white rounded-full inline-block text-3xl font-extrabold font-playFair">C</div>
+            <div class="flex justify-center text-center">
+                <a class="flex items-center text-black bg-purple-200 p-2 pr-5 pl-2 text-base font-extralight rounded-full">
+                    <i class="fa-regular fa-face-smile text-black  rounded-full text-2xl pr-2"></i>
+                    Share
+                </a>
+           
+            
+        </div>
+    </nav>
+    
+
+    <section class="text-center  w-12/12 lg:w-[980px] mx-auto">
+        <p class="text-9xl pt-24 font-playFair tracking-tighter">The big anthology of</p>
+        <p class="text-9xl italic pt-6 font-cormorant font-thin tracking-tighter">business thank yous</p>
+        <p class="pt-8 text-xl tracking-wider">Find the perfect words to say thanks. Use the filters for type and tone. then copy to your
+            clipboard.</p>
+
+            <div class=" flex flex-wrap mx-auto justify-center gap-3 lg:w-[850px]  mt-5">
+            <p class="px-6 py-2 border  border-current rounded-lg ">New business</p>
+            <p class="px-4 py-2 border border-current rounded-lg">Local customers</p>
+            <p class="px-4 py-2 border border-current rounded-lg">Breakup</p>
+            <p class="px-4 py-2 border border-current rounded-lg">Holiday</p>
+            <p class="px-5 py-2 border border-current rounded-lg">For a review</p>
+            <p class="px-4 py-2 border border-current rounded-lg">Team</p>
+            <p class="px-4 py-2 border border-current rounded-lg">Boss</p>
+            <p class="px-5 py-2 border border-current rounded-lg">Check-in</p>
+            <p class="px-5 py-2 border border-current rounded-lg">Condolence</p>
+            <p class="px-6 py-2 border border-current rounded-lg">For a referal</p>
+            <p class="px-5 py-2 border border-current rounded-lg">For Subscribers</p>
+            <p class="px-6 py-2 border border-current rounded-lg">For a purchase</p>
+            <p class="px-5 py-2 border border-current rounded-full">Heartfelt</p>
+            <p class="px-5 py-2 border border-current rounded-full">Cheeky</p>  
+            </div>
+            
+
+    </section>
+
+    <div class="flex justify-center pt-8 gap-10 flex-wrap">
+        <section class="tilt w-1/4 p-5 bg-indigo-100 rounded-lg">
+            <p class="text-xl">"You brighten up my slack inbox"</p>
+            <p>Lorem ipsum dolor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, sint veritatis eligendi dolorem alias neque ex eum consequuntur consequatur eos vel natus a incidunt impedit blanditiis excepturi possimus obcaecati expedita. sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p>Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-emerald-600 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. A laboriosam animi blanditiis, quaerat, possimus perspiciatis quis quam autem eius iste nam cumque ea at ipsam? Repellendus cum deserunt quo provident. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p>Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-blue-900 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, at consequatur repellat natus alias laborum minus nemo iusto eligendi consectetur expedita reprehenderit mollitia eos necessitatibus. Dignissimos molestiae maxime autem nisi. amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-fuchsia-700 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis similique obcaecati labore excepturi adipisci unde ab quaerat, id animi iste minima omnis qui ad doloremque assumenda non temporibus esse repellendus.</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-indigo-300 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsa corrupti voluptas modi. Nesciunt officiis minus repellat necessitatibus dolor error corrupti, quisquam dolores. Est quos laboriosam quae, quidem mollitia earum!</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-emerald-500 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas inventore perspiciatis eaque, assumenda possimus deserunt dolorum unde quae tempore asperiores. Odit rem suscipit cum. Tempora adipisci at ducimus eaque?</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-blue-900 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-indigo-100 text-black rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-fuchsia-700 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-fuchsia-700 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-blue-900 text-white rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+        <section class="tilt w-1/4 p-5 bg-indigo-100 text-black rounded-lg">
+            <p class="text-xl">You brighten up my slack inbox</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, voluptatem</p>
+            <p>Heart emoji,</p>
+            <p class="mt-2">Name</p>
+            <i class="fa-regular fa-copy flex justify-end"></i>
+        </section>
+    </div>
+  
+</body>
+
+</html>
